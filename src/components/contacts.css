@@ -1,0 +1,24 @@
+.containerContacts {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh;
+    flex-direction: column;
+    padding: 30px;  
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    margin: 40px;
+    padding: 10px;
+}
+
+.socLink {
+    color: inherit;
+}
+
