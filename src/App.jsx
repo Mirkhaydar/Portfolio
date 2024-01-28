@@ -15,7 +15,7 @@ function App() {
       <Router>
         <HEADER />
         <Routes>
-          <Route path='/' element={<HOME />} />
+          <Route path='/Portfolio/' element={<HOME />} />
           <Route path='/resume' element={<RESUME/>}/>
           <Route path='/contacts' element={<CONTACTS />} />
         </Routes>

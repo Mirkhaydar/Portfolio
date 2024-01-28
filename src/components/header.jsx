@@ -27,14 +27,15 @@ export default function Header() {
     return (
         
     <header className='head'>
-        <NavLink to='/' className='LogoHead'>
+        <NavLink to='/Portfolio/' className='LogoHead'>
         <strong>Fronted&nbsp;</strong>Dev Portfolio
         </NavLink>
         <div className='links'>
-            <NavLink to='/' className={({isActive}) =>isActive?activeLink:normalLimk}>
+           
+            <NavLink to='/Portfolio/' className={({isActive}) =>isActive?activeLink:normalLimk}>
             <span>Home</span>
             </NavLink>
-
+            
             <NavLink to='/resume' className={({isActive}) =>isActive?activeLink:normalLimk}>
             <span>Resume</span>
             </NavLink>
