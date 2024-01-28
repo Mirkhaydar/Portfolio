@@ -27,12 +27,12 @@ export default function Header() {
     return (
         
     <header className='head'>
-        <NavLink to='/' className='LogoHead'>
+        <NavLink to='/Portfolio/Home' className='LogoHead'>
         <strong>Fronted&nbsp;</strong>Dev Portfolio
         </NavLink>
         <div className='links'>
            
-            <NavLink to='/' className={({isActive}) =>isActive?activeLink:normalLimk}>
+            <NavLink to='/Portfolio/Home' className={({isActive}) =>isActive?activeLink:normalLimk}>
             <span>Home</span>
             </NavLink>
             
